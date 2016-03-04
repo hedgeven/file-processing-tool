@@ -20,7 +20,6 @@ function main() {
     declare -a selected=('Selected:')
     declare -a edited=('Edited:')
     declare -a deleted=('Deleted:')
-    #log='ps-file-processing.log'
     function printa() {
         array=($1)
         if [ ${#array[*]} -gt 1 ]
